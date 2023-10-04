@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+body{
+
+    background-size: 150px;
+    background-repeat: no repeat;
+    background-color:aquamarine;
+}
+
+.container{
+    display: flexbox;
+    place-items: center;
+    margin: 20px auto;
+    width: 300px;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    outline: 5px;
+    border-color: black;
+    background-color:rgb(238, 229, 130);
+    
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.input{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.button{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: black;
+}
+
+.container .icon{
+    display: flex;
+    color: aqua;
+}
+.fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+.fa-facebook{
+    background: red;
+
+}
+.
